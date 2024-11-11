@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h2>Bienvenido</h2>
+    <a href="{{ url_for('logout') }}" class="btn btn-danger">Cerrar sesión</a>
+</div>
+{% endblock %}
